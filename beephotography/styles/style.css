@@ -189,13 +189,13 @@ footer h3 a:hover{
   to {opacity: 1}
 }
 
-.home_grid{
+.home-grid{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
 .card-img{
   width: 450px;
-  display:inline;
+  /* display:inline; */
 }
 .field-card{
   grid-column: 2/3;
@@ -227,5 +227,9 @@ footer h3 a:hover{
 }
 .fieldport-card{
   grid-column: 3/4;
+  grid-row: 3/4;
+}
+.bee-card{
+  grid-column: 4/5;
   grid-row: 3/4;
 }
